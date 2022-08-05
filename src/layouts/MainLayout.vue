@@ -9,14 +9,9 @@
     </q-header>
 
     <q-page-container>
-      <q-splitter
-        model-value="128px"
-      >
+      <q-splitter model-value="128px">
         <template v-slot:before>
-          <q-tabs
-            v-model="tab"
-            vertical
-          >
+          <q-tabs v-model="tab" vertical>
             <q-route-tab
               icon=""
               label="Pristines"
@@ -36,43 +31,43 @@
               exact
             />
             <q-route-tab
-              icon=""
+              icon="fa-solid fa-route"
               label="Distances"
               to="/dist"
               exact
             />
             <q-route-tab
-              icon=""
+              icon="fa-solid fa-gem"
               label="Miner's Tool"
               to="/miner"
               exact
             />
             <q-route-tab
-              icon=""
+              icon="fa-solid fa-globe"
               label="Sphere"
               to="/sphere"
               exact
             />
             <q-route-tab
-              icon=""
+              icon="fa-solid fa-list"
               label="List"
               to="/list"
               exact
             />
             <q-route-tab
-              icon=""
+              icon="fa-solid fa-shuttle-space"
               label="Road to Riches"
               to="/expl"
               exact
             />
             <q-route-tab
-              icon=""
+              icon="fa-solid fa-volcano"
               label="Selenium"
               to="/selenium"
               exact
             />
             <q-route-tab
-              icon=""
+              icon="fa-solid fa-skull-crossbones"
               label="Massacre"
               to="/pve"
               exact
